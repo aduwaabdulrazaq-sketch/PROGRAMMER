@@ -3,518 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>ADUWA Family Scholarship Application directed by twins brother</title>
-
-    <!-- Connect to external CSS -->
+    <title>ADUWA Family Scholarship Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="container">
-
-    <!-- HEADER -->
     <header class="header">
-
         <div class="logo">A</div>
-
         <h1>ADUWA FAMILY</h1>
-
         <p>Scholarship Application Portal</p>
-
     </header>
 
-
-    <!-- INTRODUCTION -->
     <section class="intro">
-
         <h2>ADUWA FAMILY SCHOLARSHIP 2026</h2>
-
-        <p>
-            The ADUWA Family is committed to supporting students
-            in their educational journey. Complete the application
-            form carefully and provide accurate information.
-        </p>
-
+        <p>The ADUWA Family is committed to supporting students in their educational journey. Complete the application form carefully and provide accurate information.</p>
     </section>
 
-
-    <!-- APPLICATION FORM -->
-    <form>
-
-        <!-- PERSONAL INFORMATION -->
+    <form id="aduwaForm">
         <section class="section">
-
-            <div class="section-title">
-                <div class="number">1</div>
-                <h3>Personal Information</h3>
-            </div>
-
+            <div class="section-title"><div class="number">1</div><h3>Personal Information</h3></div>
             <div class="form-grid">
-
-                <div class="input-group">
-                    <label>
-                        Full Name <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter your full name"
-                        required
-                    >
-                </div>
-
-
-                <div class="input-group">
-                    <label>
-                        Date of Birth <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="date"
-                        required
-                    >
-                </div>
-
-
-                <div class="input-group">
-                    <label>
-                        Email Address <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="email"
-                        placeholder="example@email.com"
-                        required
-                    >
-                </div>
-
-
-                <div class="input-group">
-                    <label>
-                        Phone Number <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="tel"
-                        placeholder="080XXXXXXXX"
-                        required
-                    >
-                </div>
-
-
-                <div class="input-group">
-                    <label>
-                        State of Origin
-                    </label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter your state"
-                    >
-                </div>
-
-
-                <div class="input-group">
-                    <label>
-                        Local Government Area
-                    </label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter your LGA"
-                    >
-                </div>
-
+                <div class="input-group"><label>Full Name <span class="required">*</span></label><input type="text" placeholder="Enter your full name" required></div>
+                <div class="input-group"><label>Date of Birth <span class="required">*</span></label><input type="date" required></div>
+                <div class="input-group"><label>Email Address <span class="required">*</span></label><input type="email" placeholder="example@email.com" required></div>
+                <div class="input-group"><label>Phone Number <span class="required">*</span></label><input type="tel" placeholder="080XXXXXXXX" required></div>
+                <div class="input-group"><label>State of Origin</label><input type="text" placeholder="Enter your state"></div>
+                <div class="input-group"><label>Local Government Area</label><input type="text" placeholder="Enter your LGA"></div>
             </div>
-
         </section>
 
-
-        <!-- ACADEMIC INFORMATION -->
         <section class="section">
-
-            <div class="section-title">
-
-                <div class="number">2</div>
-
-                <h3>Academic Information</h3>
-
-            </div>
-
+            <div class="section-title"><div class="number">2</div><h3>Academic Information</h3></div>
             <div class="form-grid">
-
-                <div class="input-group full">
-
-                    <label>
-                        School / Institution Name
-                        <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter full name of your institution"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>Faculty</label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter faculty"
-                    >
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>
-                        Department
-                        <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter your department"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>
-                        Course of Study
-                        <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter your course"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>
-                        Current Level
-                        <span class="required">*</span>
-                    </label>
-
-                    <select required>
-
-                        <option value="">
-                            Select level
-                        </option>
-
-                        <option>100 Level</option>
-                        <option>200 Level</option>
-                        <option>300 Level</option>
-                        <option>400 Level</option>
-                        <option>500 Level</option>
-                        <option>Postgraduate</option>
-
-                    </select>
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>
-                        Current CGPA
-                        <span class="required">*</span>
-                    </label>
-
-                    <input
-                        type="number"
-                        step="0.01"
-                        min="0"
-                        max="5"
-                        placeholder="e.g. 4.25"
-                        required
-                    >
-
-                    <small>
-                        Enter your current CGPA according to
-                        your institution's scale.
-                    </small>
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>CGPA Scale</label>
-
-                    <select>
-
-                        <option value="">
-                            Select scale
-                        </option>
-
-                        <option>5.00</option>
-                        <option>4.00</option>
-                        <option>Other</option>
-
-                    </select>
-
-                </div>
-
+                <div class="input-group full"><label>School / Institution Name <span class="required">*</span></label><input type="text" placeholder="Enter full name of your institution" required></div>
+                <div class="input-group"><label>Faculty</label><input type="text" placeholder="Enter faculty"></div>
+                <div class="input-group"><label>Department <span class="required">*</span></label><input type="text" placeholder="Enter your department" required></div>
+                <div class="input-group"><label>Course of Study <span class="required">*</span></label><input type="text" placeholder="Enter your course" required></div>
+                <div class="input-group"><label>Current Level <span class="required">*</span></label><select required><option value="">Select level</option><option>100 Level</option><option>200 Level</option><option>300 Level</option><option>400 Level</option><option>500 Level</option><option>Postgraduate</option></select></div>
+                <div class="input-group"><label>Current CGPA <span class="required">*</span></label><input type="number" step="0.01" min="0" max="5" placeholder="e.g. 4.25" required><small>Enter your current CGPA according to your institution's scale.</small></div>
+                <div class="input-group"><label>CGPA Scale</label><select><option value="">Select scale</option><option>5.00</option><option>4.00</option><option>Other</option></select></div>
             </div>
-
         </section>
 
-
-        <!-- SCHOLARSHIP REQUIREMENTS -->
         <section class="section">
-
-            <div class="section-title">
-
-                <div class="number">3</div>
-
-                <h3>Scholarship Requirements</h3>
-
-            </div>
-
-
-            <div class="requirements">
-
-                <h4>Applicants should provide:</h4>
-
-                <ul>
-
-                    <li>
-                        Proof of current student status
-                    </li>
-
-                    <li>
-                        Valid student identification
-                    </li>
-
-                    <li>
-                        Current academic result/transcript
-                    </li>
-
-                    <li>
-                        Accurate school and department information
-                    </li>
-
-                    <li>
-                        A short statement explaining the need
-                        for scholarship support
-                    </li>
-
-                    <li>
-                        Any additional document requested by
-                        the scholarship administrators
-                    </li>
-
-                </ul>
-
-            </div>
-
-
-            <div class="input-group">
-
-                <label>
-                    Upload Academic Result
-                    <span class="required">*</span>
-                </label>
-
-                <input
-                    type="file"
-                    accept=".pdf,.jpg,.jpeg,.png"
-                    required
-                >
-
-            </div>
-
-
-            <div class="input-group">
-
-                <label>
-                    Upload Student ID
-                </label>
-
-                <input
-                    type="file"
-                    accept=".pdf,.jpg,.jpeg,.png"
-                >
-
-            </div>
-
+            <div class="section-title"><div class="number">3</div><h3>Scholarship Requirements</h3></div>
+            <div class="requirements"><h4>Applicants should provide:</h4><ul><li>Proof of current student status</li><li>Valid student identification</li><li>Current academic result/transcript</li><li>Accurate school and department information</li><li>A short statement explaining the need for scholarship support</li><li>Any additional document requested by the scholarship administrators</li></ul></div>
+            <div class="input-group"><label>Upload Academic Result <span class="required">*</span></label><input type="file" accept=".pdf,.jpg,.jpeg,.png" required></div>
+            <div class="input-group"><label>Upload Student ID</label><input type="file" accept=".pdf,.jpg,.jpeg,.png"></div>
         </section>
 
-
-        <!-- PERSONAL STATEMENT -->
         <section class="section">
-
-            <div class="section-title">
-
-                <div class="number">4</div>
-
-                <h3>Scholarship Statement</h3>
-
-            </div>
-
-            <div class="input-group">
-
-                <label>
-                    Why should you receive this scholarship?
-                    <span class="required">*</span>
-                </label>
-
-                <textarea
-                    rows="7"
-                    placeholder="Explain your educational goals, financial need, and how this scholarship would support your education..."
-                    required
-                ></textarea>
-
-            </div>
-
+            <div class="section-title"><div class="number">4</div><h3>Scholarship Statement</h3></div>
+            <div class="input-group"><label>Why should you receive this scholarship? <span class="required">*</span></label><textarea rows="7" placeholder="Explain your educational goals, financial need, and how this scholarship would support your education..." required></textarea></div>
         </section>
 
-
-        <!-- BANK INFORMATION -->
         <section class="section">
-
-            <div class="section-title">
-
-                <div class="number">5</div>
-
-                <h3>Payment Information</h3>
-
-            </div>
-
-
-            <div class="bank-notice">
-
-                <strong>Important:</strong>
-
-                Bank details are sensitive financial information.
-                Only provide these details if the official scholarship
-                administrators have confirmed that they are required
-                for scholarship payment.
-
-            </div>
-
-
+            <div class="section-title"><div class="number">5</div><h3>Payment Information</h3></div>
+            <div class="bank-notice"><strong>Important:</strong> Bank details are sensitive financial information. Only provide these details if the official scholarship administrators have confirmed that they are required for scholarship payment.</div>
             <div class="form-grid">
-
-                <div class="input-group">
-
-                    <label>Account Name</label>
-
-                    <input
-                        type="text"
-                        placeholder="Name on bank account"
-                    >
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>Bank Name</label>
-
-                    <input
-                        type="text"
-                        placeholder="Enter your bank name"
-                    >
-
-                </div>
-
-
-                <div class="input-group">
-
-                    <label>Account Number</label>
-
-                    <input
-                        type="text"
-                        inputmode="numeric"
-                        maxlength="10"
-                        placeholder="Enter account number"
-                    >
-
-                </div>
-
+                <div class="input-group"><label>Account Name</label><input type="text" placeholder="Name on bank account"></div>
+                <div class="input-group"><label>Bank Name</label><input type="text" placeholder="Enter your bank name"></div>
+                <div class="input-group"><label>Account Number</label><input type="text" inputmode="numeric" maxlength="10" placeholder="Enter account number"></div>
             </div>
-
         </section>
 
-
-        <!-- DECLARATION -->
         <section class="section">
-
-            <div class="section-title">
-
-                <div class="number">6</div>
-
-                <h3>Declaration</h3>
-
-            </div>
-
-
-            <div class="agreement">
-
-                <input
-                    type="checkbox"
-                    id="agreement"
-                    required
-                >
-
-                <label for="agreement">
-
-                    I declare that the information provided in this
-                    application is true and accurate to the best of
-                    my knowledge. I understand that providing false
-                    information may result in disqualification.
-
-                </label>
-
-            </div>
-
-
-            <button
-                type="submit"
-                class="submit-btn"
-            >
-                SUBMIT SCHOLARSHIP APPLICATION
-            </button>
-
+            <div class="section-title"><div class="number">6</div><h3>Declaration</h3></div>
+            <div class="agreement"><input type="checkbox" id="agreement" required><label for="agreement">I declare that the information provided in this application is true and accurate to the best of my knowledge. I understand that providing false information may result in disqualification.</label></div>
+            <button type="submit" class="submit-btn">SUBMIT SCHOLARSHIP APPLICATION</button>
         </section>
-
     </form>
 
-
-    <!-- FOOTER -->
-    <footer class="footer">
-
-        <strong>ADUWA FAMILY</strong>
-
-        <p>
-            Scholarship & Educational Support Program
-        </p>
-
-        <p>
-            © 2026 ADUWA Family. All Rights Reserved.
-        </p>
-
-    </footer>
-
+    <footer class="footer"><strong>ADUWA FAMILY</strong><p>Scholarship & Educational Support Program</p><p>© 2026 ADUWA Family. All Rights Reserved.</p></footer>
 </div>
 
+<!-- SUCCESS POPUP -->
+<div id="successBox">
+  <div class="successInner">
+    <div class="tick">✓</div>
+    <h3>Application Submitted!</h3>
+    <p>Thank you for applying for ADUWA FAMILY Scholarship.<br><br>Your application has been received successfully. You will be contacted if shortlisted.</p>
+    <button id="okBtn">OK</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
